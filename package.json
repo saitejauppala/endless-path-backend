@@ -25,9 +25,7 @@
     "multer": "^1.4.5-lts.1",
     "mysql2": "^3.11.5",
     "sequelize": "^6.37.5",
-    "uuid": "^11.0.3"
-  },
-  "devDependencies": {
+    "uuid": "^11.0.3",
     "@types/bcryptjs": "^2.4.6",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
@@ -36,9 +34,11 @@
     "@types/multer": "^1.4.12",
     "@types/node": "^22.10.7",
     "@types/uuid": "^10.0.0",
-    "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   },
   "keywords": ["nodejs", "express", "mariadb", "sequelize", "jwt"],
   "author": "Endless Path",
