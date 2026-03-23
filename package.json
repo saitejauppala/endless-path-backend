@@ -1,0 +1,18 @@
+{
+  "name": "endless-path-backend",
+  "version": "1.0.0",
+  "description": "Endless Path - Multi-service platform backend API",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "db:sync": "ts-node src/scripts/syncDb.ts"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["nodejs", "express", "mariadb", "sequelize", "jwt"],
+  "author": "Endless Path",
+  "license": "ISC"
+}
